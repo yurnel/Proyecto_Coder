@@ -4,57 +4,211 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e28e531c99.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <title>MyCelium Tech</title>
 </head>
 <body>
-  <!-- HEADER y NAV -->
   <header> 
-    <a href="index.html"><img class="header__logo" src="../recursos/logo.png"></a>
-    <h2 class="header__titulo">Mycelium Tech</h2>
-      <nav class="header__nav">
-        <ul class="ul__nav">
-          <li> <a href="../index.html">Inicio</a></li>
-          <li> <a href="../paginas/contactanos.html">Contactanos</a></li>
-          <li> <a href="../paginas/servicios.html">Servcicios</a></li>
-          <li> <a href="../paginas/nosotros.html">Nosotros</a></li>
-          <li> <a href="../paginas/productos.html">Productos</a></li>
-        </ul>
-    </nav>
+      <!-- NAV BAR -->
+      <nav class="navbar sticky-top navbar-expand-xxl bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="header__logo" src="../recursos/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/nosotros.html">Nosotros</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/servicios.html" >Servicios</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/productos.html" >Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/contactanos.html" >Contactanos</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul>
+                <li><span class="social-icon social-facebook"><i class="fa fa-facebook"></i></span></li>
+                <li><span class="social-icon social-google"><i class="fa fa-google"></i></span></li>
+                <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin"></i></span></li>
+                <li><span class="social-icon social-instagram"><i class="fa fa-instagram"></i></span></li>
+                <li><span class="social-icon social-twitter"><i class="fa fa-twitter"></i></span></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div> 
   </header>
-  <!-- Main -->
   <main>
-    <section class="contactanos__contenedor">
-      <form method="post">
-      <h1>Contactanos</h1>
-      <input/>
-      <input type="submit" value="Enviar formulario"/>
-      <input type="reset" value="Resetear"/>
-      <input type="button" value="Boton"/>  
-      </form>
-      <main>
-    <section class="contenedor">
-      <h1 class="titulo__principal">Mycelium Tech1</h1>
-      <div class="card__container">
-        <p class="card__texto">Seccion para Articulo</p>
-        <img class="card__imagen" src="../img/domo.jpg" alt="domotica">
-        <p class="card__textobajo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur eaque fugit voluptatem. Id laborum, ipsum magnam vero voluptatibus sequi, praesentium reprehenderit, pariatur eum tenetur quae assumenda reiciendis neque dolor.</p>
-      </div>
-    </section>
-    <section class="contenedor">
-      <h1 class="titulo__principal">Mycelium Tech1</h1>
-      <div class="card__container">
-        <p class="card__texto">Seccion para Articulo</p>
-        <img class="card__imagen" src="../img/domo.jpg" alt="domotica">
-        <p class="card__textobajo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur eaque fugit voluptatem. Id laborum, ipsum magnam vero voluptatibus sequi, praesentium reprehenderit, pariatur eum tenetur quae assumenda reiciendis neque dolor.</p>
-      </div>
-    </section>
+    <!-- NAV BAR FIN -->
+  <!-- Container (Contact Section) -->
+  <div class="container-fluid-left">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="" method="post">
+            <fieldset>
+              <legend class="text-center">Contact us</legend>
+      
+              <!-- Name input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="name">Name</label>
+                <div class="col-md-9">
+                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                </div>
+              </div>
+      
+              <!-- Email input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                <div class="col-md-9">
+                  <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                </div>
+              </div>
+      
+              <!-- Message body -->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="message">Your message</label>
+                <div class="col-md-9">
+                  <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                </div>
+              </div>
+      
+              <!-- Form actions -->
+              <div class="form-group">
+                <div class="col-md-12 text-right">
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
   </main>
   <footer>
-    <p class="footer__descr">Todos los derechos Reservados</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <span class="footer-title">Productos</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 5</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <span class="footer-title">Mycelium</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Empleos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Novedades</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <span class="footer-title">Contactanos</span>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link"><i class="fas fa-phone"></i>+54 9 1000000-</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-comments"></i>Chat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-star"></i>Recomendaciones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+      
+      <div class="row text-center">
+        <div class="col-md-4 box">
+          <span class="copyright quick-links">Copyright &copy; Mycelium <script>document.write(new Date().getFullYear())</script>
+          </span>
+        </div>
+        <div class="col-md-4 box">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 box">
+          <ul class="list-inline quick-links">
+            <li class="list-inline-item">
+              <a href="#">Politica de Privacidad</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terminos de uso</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1r"></script>
 </body>
 </html>

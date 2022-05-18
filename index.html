@@ -4,43 +4,277 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/e28e531c99.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
-  <title class="titulo__head">MyCelium Tech1</title>
+  <title>MyCelium Tech</title>
 </head>
 <body>
-  <header>
-    <a href="index.html"><img class="header__logo" src="recursos/logo.png"></a>
-    <h2 class="header__titulo">Mycelium Tech</h2>
-      <nav class="header__nav">
-        <ul class="ul__nav">
-          <li> <a href="index.html">Inicio</a></li>
-          <li> <a href="../Proyecto_Coder/paginas/contactanos.html">Contactanos</a></li>
-          <li> <a href="../Proyecto_Coder/paginas/servicios.html">Servcicios</a></li>
-          <li> <a href="../Proyecto_Coder/paginas/nosotros.html">Nosotros</a></li>
-          <li> <a href="../Proyecto_Coder/paginas/productos.html">Productos</a></li>
-        </ul>    
-    </nav>
+  <header> 
+      <!-- NAV BAR -->
+      <nav class="navbar sticky-top navbar-expand-xxl bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="header__logo" src="recursos/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/servicios.html" >Servicios</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/productos.html" >Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paginas/contactanos.html" >Contactanos</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul>
+                <li><span class="social-icon social-facebook"><i class="fa fa-facebook"></i></span></li>
+                <li><span class="social-icon social-google"><i class="fa fa-google"></i></span></li>
+                <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin"></i></span></li>
+                <li><span class="social-icon social-instagram"><i class="fa fa-instagram"></i></span></li>
+                <li><span class="social-icon social-twitter"><i class="fa fa-twitter"></i></span></li>
+            </ul>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    
   </header>
   <main>
-    <section class="contenedor">
-      <h1 class="titulo__principal">Mycelium Tech1</h1>
-      <div class="card__container">
-        <p class="card__texto">Seccion para Articulo</p>
-        <img class="card__imagen" src="img/domo.jpg" alt="domotica">
-        <p class="card__textobajo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur eaque fugit voluptatem. Id laborum, ipsum magnam vero voluptatibus sequi, praesentium reprehenderit, pariatur eum tenetur quae assumenda reiciendis neque dolor.</p>
+    <!-- NAV BAR FIN -->
+    <!-- Carrusel INICIO -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
       </div>
-      <div class="card__container">
-        <p class="card__texto">Seccion Articulo</p>
-        <img class="card__imagen" src="img/domo.jpg" alt="domotica">
-        <p class="card__textobajo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur eaque fugit voluptatem. Id laborum, ipsum magnam vero voluptatibus sequi, praesentium reprehenderit, pariatur eum tenetur quae assumenda reiciendis neque dolor.</p>
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+    
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+    
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+    
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
       </div>
-    </section> 
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- FIN Carrusel -->
+
+    <!-- CARDS SERVICIOS -->
+    <div id="cards_landscape_wrap-2">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="https://cdn.pixabay.com/photo/2018/03/30/15/11/deer-3275594_960_720.jpg" alt="" />
+                              </div>
+                              <div class="text-container">
+                                  <h6>Producto 1</h6>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="https://cdn.pixabay.com/photo/2018/04/09/19/55/low-poly-3305284_960_720.jpg" alt="" />
+                              </div>
+                              <div class="text-container">                                    
+                                  <h6>Producto 2</h6>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="https://cdn.pixabay.com/photo/2018/04/06/13/46/poly-3295856_960_720.png" alt="" />
+                              </div>
+                              <div class="text-container">
+                                  <h6>Producto 3</h6>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                  <a href="">
+                      <div class="card-flyer">
+                          <div class="text-box">
+                              <div class="image-box">
+                                  <img src="https://cdn.pixabay.com/photo/2018/03/30/15/12/dog-3275593_960_720.jpg" alt="" />
+                              </div>
+                              <div class="text-container">
+                                  <h6>Producto 4</h6>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div> 
   </main>
   <footer>
-    <p class="footer__descr">Todos los derechos Reservados</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <span class="footer-title">Productos</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Productos 5</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <span class="footer-title">Mycelium</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Empleos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Novedades</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 footer-column">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <span class="footer-title">Contactanos</span>
+            </li>
+            <li class="nav-item">
+              <span class="nav-link"><i class="fas fa-phone"></i>+54 9 1000000-</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-comments"></i>Chat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-star"></i>Recomendaciones</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+      
+      <div class="row text-center">
+        <div class="col-md-4 box">
+          <span class="copyright quick-links">Copyright &copy; Mycelium <script>document.write(new Date().getFullYear())</script>
+          </span>
+        </div>
+        <div class="col-md-4 box">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 box">
+          <ul class="list-inline quick-links">
+            <li class="list-inline-item">
+              <a href="#">Politica de Privacidad</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terminos de uso</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1r"></script>
 </body>
 </html>
